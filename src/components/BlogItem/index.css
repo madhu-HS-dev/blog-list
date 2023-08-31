@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.published-date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.line {
+  border: solid 1px #9aa5b1;
+}
